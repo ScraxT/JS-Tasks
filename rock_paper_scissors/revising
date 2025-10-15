@@ -1,0 +1,21 @@
+let username = 'Sigma';
+console.log(`Hello, ${username}!`);
+console.log('Hello, ' + username + '!');
+
+let paintings = ['Mona Lisa', 'Starry Night', 'The Scream'];
+paintings.push('Girl with a Pearl Earring');
+console.log(paintings);
+paintings.pop();
+console.log(paintings);
+
+paintings.forEach(painting => console.log(painting););
+
+username = {
+    name: 'Sigma',
+    age: 21,
+    greet() {
+        console.log(`Hi, I'm ${this.name} and I'm ${this.age} years old.`);
+    }
+
+};
+username.greet();
