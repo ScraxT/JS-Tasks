@@ -1,0 +1,58 @@
+#addTaskBtn{
+    background-color: rgb(31, 110, 228);
+    color: white;
+    border-color:rgb(50, 10, 228);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 39px;
+    display: inline;
+}
+
+#addTaskBtn:hover{
+    background-color: rgb(20, 90, 200);
+}
+
+#taskList{
+    margin-top: 20px;
+    background-color: aqua;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    border-width: 0px;
+    display: block;
+}
+
+.addTask{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 5px;
+    height:15px;
+}
+
+div{
+    display:flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+p{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+    flex: 2;
+}
+
+button{
+  background-color: rgb(231, 25, 25);
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  color:white;
+  font-size:15px;
+  flex:1;
+}
