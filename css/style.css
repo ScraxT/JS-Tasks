@@ -1,0 +1,52 @@
+.blackTheme {
+  background: black;
+  color: red;
+}
+.greyTheme {
+  background: rgb(128, 128, 128);
+  color: yellow;
+}
+.whiteTheme {
+  background: white;
+  color: blue;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+
+.circle.black {
+  background:
+    linear-gradient(to right, rgb(255, 0, 0) 45%, black 55%) padding-box,
+    linear-gradient(to bottom right, red 10%, blue, yellow 88%) border-box;
+}
+
+.circle.grey {
+  background:
+  linear-gradient(to right, yellow 45%, rgb(128, 128, 128) 55%) padding-box,
+  linear-gradient(to bottom right, red 10%, blue, yellow 88%) border-box;
+}
+  
+.circle.white {
+  background:
+  linear-gradient(to right, rgb(0, 0, 255) 45%, rgb(255, 255, 255) 55%) padding-box,
+  linear-gradient(to bottom right, red 10%, blue, yellow 88%) border-box;
+}
+
+  
+#themeContainer {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+  background-color: rgba(133, 42, 145, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+}
+  
